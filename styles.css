@@ -1,0 +1,268 @@
+/* 1st part----------------- */
+*{
+    margin: 0px;
+}
+.header{
+    justify-content: center;
+    background-image: url('images/donation1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+    height: 100vh;
+}
+.header .btn-primary{
+    background-color: orangered;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+}   
+.header-text{
+    color: white;
+    text-align: center;
+    padding-top: 40vh;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: sans-serif;
+
+}  
+.header-para-text{
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 20px;
+} 
+
+/* 2nd part----------------- */
+
+.donation-part{
+    margin-top: 100px;
+    text-align: center;
+}
+.taka-flex{
+    display: flex;
+    padding: 20px 150px;
+}
+.donate-today{
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.donate-para{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 25px;
+}
+.btn-pri{
+    padding: 40px 40px;
+    margin-left: 60px;
+    font-size: 18px;
+    background-color: aliceblue ;
+    font-weight: 600;
+    font-size: 30px;
+    color: grey ;
+    border: none;
+    border-radius: 10px;
+    transition: 0.8s;
+
+}
+.btn-pri:hover{
+    color: black;
+    background: orangered;
+}
+.hr-parent{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+.hr{
+    padding: 1px;
+    border-radius: 100%;
+    color: gray;
+    background-color: gray;
+    width: 60%;
+}
+.donate-now{
+    padding: 20px 20px;
+    border: none;
+    background-color: orangered;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 100px;
+}
+.font-correct{
+    font-family: sans-serif;
+}
+
+/* 3rd part------------------ */
+
+.donate-plan{
+    text-align: center;
+    font-family: sans-serif;
+}
+.donate-plan-para{
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.helpings1{
+    padding: 50px 30px;
+    background-color: lightskyblue;
+    margin-right: 20px;
+    margin-left: 200px;
+    margin-top: 30px;
+    border: none;
+}
+.helpings2{
+    padding: 50px 10px;
+    background-color: lightcoral;
+    margin-right: 20px;
+    margin-top: 30px;
+    border: none;
+}
+.helpings3{
+    margin-top: 30px;
+    padding: 50px 10px;
+    background-color: lightgoldenrodyellow;
+    border: none;
+    margin-right: 200px;
+}
+.helps{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+
+/* 4th part--------------------- */
+
+.fourth-part{
+    display: flex;
+}
+.contribute{
+    padding: 10px 10px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.about-pic{
+    margin-right: 200px;
+}
+.left-part{
+    margin-left: 200px;
+    padding-top: 100px;
+    padding-right: 80px;
+
+}
+.texts{
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+
+.hr-parent{
+    display: flex;
+    justify-content: center;
+}
+.hr{
+    padding: 1px;
+    background-color: black;
+
+}
+/* fifth part ---------------*/
+
+.fifth-part{
+    display: flex;
+}
+.fifth-contribute{
+
+    padding: 10px 10px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.fifth-about-pic{
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-bottom: 150px;
+}
+.fifth-right-part{
+    padding-top: 250px;
+    margin-left: 100px;
+    margin-bottom: 150px;
+}
+.fifth-texts{
+    text-align: left;
+}
+.fifth-head{
+    font-family: sans-serif;
+}
+
+/* sixth part------------------- */
+
+.updates{
+    text-align: center;
+    font-family: sans-serif;
+}
+.update-texts{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+}
+.textarea{
+    background-color: rgb(247, 232, 214);
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: block;
+}
+.form{
+    margin-left: 70px;
+    display: flex;
+}
+.form-email{
+    background-color: rgb(231, 224, 224);
+    padding: 8px 8px;
+    border: none;
+}.form-subscribe{
+    padding: 8px 8px;
+    background: orangered;
+    border: none;
+    color: white;
+
+}
+.outside-form{
+    padding: 60px 250px;
+    background-color: bisque ;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+}
+
+/* <!-- footer part ---------------> */
+
+.bottom{
+    background: black;
+    height: 70px;
+    width: 100%;
+    padding: 40px 0px;
+}
+.end-header{
+    font-size: 25px;
+    color: orangered;
+    text-align: center;
+}
+.end-para{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
